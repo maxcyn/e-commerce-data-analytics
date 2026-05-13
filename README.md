@@ -12,7 +12,8 @@ The analysis integrates three relational datasets:
 ## Methodology
 * **Data Integration:** Shipment, order, and refund datasets are merged to establish a unified base for calculating net revenue and adjusted return rates at the parcel level.
 * **Performance Aggregation:** Group-level metrics are computed to identify fulfillment bottlenecks and top revenue drivers by category, region, and courier.
-* **Statistical Hypothesis Testing:** * **Two-Proportion Z-Test:** Deployed to determine the statistical significance of the difference in refund rates between the highest and lowest performing product categories.
+* **Statistical Hypothesis Testing:**
+  * **Two-Proportion Z-Test:** Deployed to determine the statistical significance of the difference in refund rates between the highest and lowest performing product categories.
   * **ANOVA (Analysis of Variance):** Utilized to verify if shipping transit times significantly differ among the three couriers.
 
 ## Key Results
